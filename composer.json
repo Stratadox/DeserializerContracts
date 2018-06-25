@@ -1,0 +1,22 @@
+{
+    "name": "stratadox/deserializer-contracts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stratadox",
+            "homepage": "http://www.stratadox.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stratadox\\Deserializer\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "stratadox/specification-interfaces": "^1.0"
+    },
+    "suggest": {
+        "stratadox/deserializer": "Default deserializer implementation."
+    }
+}
