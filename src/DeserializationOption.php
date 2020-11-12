@@ -9,6 +9,6 @@ use Stratadox\Specification\Contract\Satisfiable;
  *
  * @author Stratadox
  */
-interface Option extends Satisfiable, Deserializes
+interface DeserializationOption extends Satisfiable, Deserializer
 {
 }

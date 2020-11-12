@@ -9,6 +9,6 @@ use Throwable;
  *
  * @author Stratadox
  */
-interface CannotDeserialize extends Throwable
+interface DeserializationFailure extends Throwable
 {
 }
